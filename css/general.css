@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*----------------------------------clearfix-------------------------------*/
+
+header,
+footer,
+nav,
+article,
+section,
+aside,
+hgroup,
+figure,
+figcaption 
+{
+	display: block;
+	vertical-align: baseline;
+}
+
+.clearfix:before,
+.clearfix:after 
+{
+	content: "";
+	display: table;
+}
+
+.clearfix:after 
+{
+	clear: both;
+}
+
+
+.clearfix 
+{
+	zoom: 1;
+}
+
+.grid-row 
+{
+    width: 99%;
+}
+
+   
+
+html{
+		background-image:url("../images/back-1.jpg");
+}
+
+
+
+body{
+		margin-top: 150px;
+		margin-left: 400px;
+		background-position: center top;
+		background:rgba(248,152,88,.7);
+		   
+		height:1150px;
+		width: 1000px;
+		  
+		border: .1px solid #bbb;
+		border-radius:16px;
+		-moz-border-radius:10px;
+		-webkit-box-shadow: 0 0 20px #bbb;
+		-moz-box-shadow: 0 0 20px #bbb;
+		box-shadow: 0 0 20px #bbb;
+ }
+ 
+#login{
+	width: 200px;
+	height:50px;
+	
+	margin-top:-30px;
+	padding:5px;
+	
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+		
+	float:right;
+	margin-right:-40px;
+}
+
+a,#login{
+	color:#fff;
+}
+ 
+header{
+	width:980px;
+	height: 150px;
+	/*background:rgba(0,0,0,.6);*/
+	background-image:url("../images/header.png");
+	margin-left: 10px;
+	margin-top:5px;
+}
+
+#up-1{
+	float:right;
+}
+
+#up{
+	margin-left: 10px;
+	margin-top:10px;
+	width:110px;
+	z-index:1;
+}
+
+h1{
+	font-family: 'Allura', cursive;
+	font-size:89px;
+	color:#fff;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	
+	text-align:center;
+	margin-top:-80px;
+}
+	
+/*-------------------navigation------------------------------------------------*/   
+nav{
+	float:left;
+	margin-top:30px;
+	margin-right: 20px;
+	color:#fff;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight:300;
+	font-size:20px;
+	width: 600px;
+	line-height:2.2;
+	
+}
+ 
+nav li{
+	 text-decoration:none;
+	 margin:0px 10px 0 0px;
+	 width: 40%;
+	 background:rgba(137,55,16,.8);
+	 margin-top:10px;
+	 display: block;
+}
+
+nav li:hover,
+nav li:focus,
+nav li:active{
+	/*background:rgba(141,49,35,.8);*/
+}
+
+nav a{
+	margin-left:10px;
+}
+
+nav a,nav a:link,nav a:visited
+{
+	text-decoration: none;
+	color:#FFF;
+}
+
+nav li:first-child a {
+    margin-left: 10px;
+}
+ 
+nav a:hover,
+nav a:focus,
+nav a:active{
+	color:#F8C410;
+	
+}
+
+.phone{
+	float:right;
+	margin-right:100px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:28px;
+	color: #fff;
+	margin-top:-120px;
+}
+
+.number{
+	float:right;
+	margin-right:100px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:28px;
+	color: #fff;
+	margin-top:-80px;
+}
